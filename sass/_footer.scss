@@ -1,0 +1,54 @@
+.footer {
+    width: 100%;
+    padding: 1em;
+    box-shadow: 0px -5px 6px rgba(0, 0, 0, 0.29);
+
+     &__copyRight {
+
+         display: inline-block;
+         width: 60%;
+         margin-bottom: 1em;
+         @media (min-width: 768px) {
+            margin-left: 4em;
+       }
+        
+         &__title {
+             font-family: 'Raleway', sans-serif;
+             font-size: 1.4em;
+             font-weight: 300;
+             line-height: 1.8em;
+             text-align: left;
+             color: #08A6E4;
+ 
+ 
+         }
+ 
+         &__text {
+             display: inline-block;
+             font-family: 'Open Sans', sans-serif;
+             color: #A5A5A5;
+             font-size: 0.7em;
+             font-weight: 400;
+             line-height: 0.9em;
+             text-align: left;
+         }
+ 
+     }
+ 
+     &__icons {
+         display: inline-block;
+         width: 30%;
+         text-align: right;
+
+         &__twitter {
+             padding-left: 1em;
+         }
+ 
+         &__facebook {
+             margin-left: 1em;
+         }
+ 
+     }
+} 
+
+

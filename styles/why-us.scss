@@ -1,0 +1,103 @@
+.why-us {
+    width: 100%;
+    text-align: center;
+    padding-top: 3.5rem;
+    &__title {
+        font-size: 2rem;
+        padding-bottom: 3rem;
+    }
+
+    &__content {
+    
+        &__article {
+            width: 100%;
+
+            &--red {
+                transform: translateX(30%);
+            }
+
+            &--person {
+                transform: translateX(-30%);
+            }
+
+            &--blue {
+                transform: translateX(50%);
+            }
+
+            &--eye {
+                transform: translate(-30%, -30%);
+            }
+
+            &--green {
+                transform: translateX(35%);
+            }
+
+            &--box {
+                transform: translateX(-30%);
+            }
+
+            &__title {
+                padding-top: 1rem;
+                padding-bottom: 1.5rem;
+            }
+
+            &__description {
+                padding-bottom: 2rem;
+                font-size: 0.8em;
+                width: 25%;
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .why-us {
+        padding-bottom: 4rem;
+        margin: auto;
+        &__title {
+            font-size: 5.5rem;
+            padding-bottom: 4rem;
+        }
+
+        &__content {
+            width: 85%;
+            margin: auto;
+            display: flex;
+            &__article {
+                width: 100%;
+
+                &--red {
+                    width: 6rem;
+                }
+
+                &--person {
+                    width: 5rem;
+                }
+
+                &--blue {
+                    width: 6rem;
+                }
+
+                &--eye {
+                    width: 6rem;
+                }
+
+                &--green {
+                    width: 6rem;
+                }
+
+                &--box {
+                    width: 5rem;
+                }
+                &__title {
+                   font-size: 3rem; 
+                }
+
+                &__description {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

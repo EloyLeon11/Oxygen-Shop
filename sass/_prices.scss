@@ -1,0 +1,266 @@
+.prices {
+
+    &__title {
+        align-items: center;
+        margin-top: 1.5em;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2em;
+        font-weight: 400;
+        line-height: 2.2em; 
+        text-align: left;
+        text-align: center;
+        color: black;
+        
+    }
+
+    
+
+    &__container {
+   
+        @media (min-width: 768px) {
+            display: flex;
+            gap: 1.5em;
+            margin-left: 3em;
+            margin-right: 3em;
+            margin-top: 3em;
+            
+            
+        }
+       
+        &__content{
+
+            @media (min-width: 768px) {
+                display: flex;
+                
+                height: 28em;
+                width: 20em;
+
+                &:hover{
+                    cursor: pointer;
+                    box-shadow: 5px 10px 27px 0px  #fa597c5d;
+                    transform: scale(1.1);
+                    transition: transform 0.1s ease;
+                }
+               
+                
+            }
+
+            display: flex;
+            position: relative;
+            width: 80%;
+            height: 30%;
+            padding: 2em;
+            margin: auto;
+            margin-bottom: 3em;
+            border: 1px solid;
+            border-radius: 1.5em;
+
+        &--red {
+            border-color: #EB476E;
+        }
+
+        &--blue {
+            border-color:  #07ACE6;
+            
+        }
+
+        &--green {
+            border-color: #55DFB4;
+        }
+
+        &__price {
+
+            @media (min-width: 768px) {
+                display: flex;
+                justify-content: start;
+               
+               
+                
+            }
+
+            text-align: center;
+            width: 40%;
+            align-content: center;
+
+
+            &__title {
+                font-family: 'Raleway', sans-serif;
+                font-size: 1.3em;
+                font-weight: 700;
+                line-height: 1.2em;
+                color: #13253B;
+                @media (min-width: 768px) {
+                    position: absolute;
+              
+                    height: 10%;
+                   margin-left: 4.5em;
+                  
+                }
+            }
+
+            &__number {
+
+                @media (min-width: 768px) {
+                    
+                    position: absolute;
+                    text-align: center;
+                    
+           
+                   margin-left: 2em;
+                   margin-top: 1em;
+                   height: 10%;
+                   margin-right: 10em;
+                   
+                   justify-content: center;
+                  
+                }
+
+                font-family: 'Open Sans', sans-serif;
+                font-size: 3em;
+
+
+                &--red {
+                    color: #EB476E;
+
+                }
+
+                &--blue {
+                    color: #07ACE6;
+                }
+
+                &--green {
+                    color: #55DFB4;
+                }
+
+
+            }
+
+            &__limitedOffer {
+                margin-top: 0.1em;
+                font-family: 'Raleway', sans-serif;
+                font-size: 0.8em;
+                font-weight: 700;
+                line-height: 0.8em;
+                color: #13253B;
+
+                @media (min-width: 768px) {
+                    display: flex;
+                    position: absolute;
+                    right: 9em;
+                    
+                
+                    margin-top: 8.5em;
+                   
+
+                    
+                       
+                        
+                    
+    
+                  
+                  
+                }
+
+            }
+
+
+
+        }
+
+        &__checkList {
+            
+
+            margin-left: 1.3em;
+            
+            @media (min-width: 768px) {
+                display: flex;
+                position: absolute;
+                flex-direction: column;
+                margin-left: 4em;
+               
+                margin-top: 10em;
+                     
+                
+            }
+
+    
+
+            &--item {
+
+                @media (min-width: 768px) {
+
+                    
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 19.07px;
+                    text-align: center;
+                    margin-bottom: 0.5em;
+                    color: black;
+                    padding: 0.4em 0em;
+            
+                    
+                }
+
+                margin-left: 1.5em;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 19.07px;
+                text-align: center;
+                margin-bottom: 1.5em;
+                color: black;
+
+            }
+
+
+
+            &--check {
+
+                list-style: url("../assets/img/CheckboxGreen.png");
+
+            }
+
+            &--cross {
+                list-style: url("../assets/img/CheckboxRed.png");
+            }
+
+        }
+
+        &__button {
+
+            border-radius: 11em;
+            position: absolute;
+            padding: 1.2em 4.4em;
+            bottom: -8%;
+            left: 25%;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.8em;
+            font-weight: 700;
+            line-height: 1.1em;
+           
+            &--red {
+                border-color: transparent;
+                background-color: #EB476E;
+                color: white;
+
+            }
+
+            &--blue {
+                border-color: transparent;
+                background-color: #07ACE6;
+                color: white;
+
+            }
+
+            &--green {
+                border-color: transparent;
+                background-color: #55DFB4;
+                color: white;
+
+            }
+        }
+
+    }
+
+    }
+
+}

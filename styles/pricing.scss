@@ -1,0 +1,202 @@
+.pricing {
+    width: 100%;
+    padding: 2rem 1rem;
+
+    &__title {
+        text-align: center;
+        font-size: 2.3rem;
+        padding-bottom: 1rem;
+        
+    }
+
+    &__content {
+        
+        &__ofert {
+            display: flex;
+            width: 100%;
+            margin: auto;
+            border-radius: 1.5rem;
+            padding: 2rem;
+            margin-bottom: 3rem;
+            position: relative;
+
+            &--red {
+                border: 1px solid #FB3B64;
+            }
+
+            &--blue {
+                border: 1px solid #07ACE6;
+                
+            }
+
+            &--green {
+                border: 1px solid #55DFB4;
+            }
+        
+            &__price {
+                align-items: center;
+                width: 45%;
+                align-content: center;
+                &__title {
+                    font-size: 1.2em;
+                    font-family: Open Sans;
+                }
+
+                &__price {
+                    font-size: 2.5em;
+                    font-family: Open Sans;
+                    &--red {
+                        color: #FB3B64;
+                        padding-bottom: 5.34rem;
+                    }
+
+                    &--blue {
+                        color: #07ACE6;
+                    }
+
+                    &--green {
+                        color: #55DFB4;
+                    }
+                }
+
+                &__offer {
+                    font-size: 0.7em;
+
+                }
+            }
+
+            &__details {
+                width: 50%;
+                align-items: start;
+                
+
+                &__check {
+                    list-style: url("img/checkbox.png");
+                }
+
+                &__nocheck {
+                    list-style: url("img/Cross.png");
+                }
+
+                &__li {
+                    padding-bottom: 1rem;
+                    padding-left: 0.2rem;
+                    font-family: Open Sans;
+                }
+            }
+        }
+
+        &__button {
+            position: absolute;
+            padding: 1em 4em;
+            color: #FFF;
+            border-radius: 2em;
+            font-size: 0.7em;
+            right: 35%;
+            bottom: -10%;
+            border-color: transparent;
+
+            &--red {
+                background-color: #FB3B64;
+            }
+
+            &--blue {
+                background-color: #07ACE6;
+            }
+
+        &--green {
+            background-color: #55DFB4;
+        }
+    }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .pricing {
+        width: 100%;
+        &__title {
+            font-size: 6rem;
+            padding-bottom: 6rem;
+        }
+        &__content {
+            display: flex;
+            width: 70%;
+            margin: auto;
+
+            &__ofert {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 20%;
+                padding-bottom: 4rem;
+
+                &:hover {
+                    transform: scale(1.1);
+                }
+
+                &--red {
+                    &:hover {
+                        box-shadow: 0.312rem 0.625rem 1.688rem 0px #EB476E4A;
+                    }
+                    
+                }
+
+                &--blue {
+                    &:hover {
+                        box-shadow: 0.312rem 0.625rem 1.688rem 0px #07ACE64A;
+                    }
+                    
+                }
+
+                &--green {
+                    &:hover {
+                        box-shadow: 0.312rem 0.625rem 1.688rem 0px #55DFB44A;
+                    }
+                    
+                }
+                
+                &__price {
+                    width: 100%;
+                    text-align: center;
+                    padding-bottom: 1.5rem;
+                    &__title {
+                        font-size: 4em;
+                    }
+
+                    &__price {
+                        font-size: 5rem;
+                    }
+
+                    &__offer {
+                        font-size: 2rem;
+                        padding-bottom: 3rem;
+                        
+                    }
+                }
+
+                &__details {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+
+                & li {
+                    font-size: 2.5rem;
+                    text-align: center;
+                    padding-bottom: 2rem;
+                }
+
+            }
+
+            &__button {
+                padding: 1rem 6rem;
+                font-size: 1.5rem;
+                right: 30%;
+                bottom: -5%;
+            }
+        }
+    }
+}

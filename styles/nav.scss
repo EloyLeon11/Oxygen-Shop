@@ -1,0 +1,58 @@
+.nav {
+    width: 100%;
+    box-shadow: 0px 3px 6px  rgba(0, 0, 0, 0.20);
+
+    &__log {
+        display: inline-block;
+        font-family: Raleway;
+        font-size: 1.5rem;
+        color: #08A6E4;
+        padding: 0.5rem;
+    }
+
+    &__menu {
+        position: absolute;
+        right: 0%;
+        padding: 1rem;
+
+    }
+
+    &__navbar {
+        display: none;
+        list-style: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        box-shadow: 0px 3px 6px 0px #0000004A;
+
+        &__log{
+            font-size: 5rem;
+            padding-left: 20rem;
+        }
+        &__menu {
+            display: none;
+        }
+
+        &__navbar {
+            display: flex;
+            font-size: 3rem;
+            padding-right: 15rem;
+
+            &__items {
+                list-style: none;
+                li {
+                    display: inline-block;
+                    padding-left: 4rem;
+                }
+            }
+
+        }
+    }
+}
