@@ -4,6 +4,10 @@
     background-color: #F7F7F7;
 
     &__container {
+
+        &__content{
+
+        
         border: 0.1em solid #E8E9ED;
         border-radius: 0.5em;
         width: 100%;
@@ -67,6 +71,8 @@
         }
 
     }
+
+}
 
 
 
