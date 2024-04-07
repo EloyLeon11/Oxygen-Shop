@@ -7,26 +7,50 @@
 
     //    CONTENT FIRST
     &__contentFirst {
-      margin-top: 2em;
+      margin: 2em auto;
       background-color: white;
       padding: 1.5em;
       border: 1px solid #e8e9ed;
       border-radius: 0.5rem;
 
+      @media (min-width: 768px) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        margin: 2em auto;
+        max-width: 60rem;
+      }
+
       &__img {
         margin-bottom: 1.5em;
 
         &--redRectangle {
-          width: 40%;
           transform: translateX(120%);
+          @media (min-width: 768px) {
+            transform: scale(1.2);
+            margin-top: 3em;
+          
+        }
         }
 
         &--macbook {
           transform: translateX(-35%);
+          
+        @media (min-width: 768px) {
+          transform: scale(1.2);
+          margin-top: 3em;
+          margin-right: 1em;
+      }
         }
       }
 
       &__info {
+        @media (min-width: 768px) {
+          display: flex;
+          flex-direction: column;
+          width: 50%; // Utilizar el 50% del espacio disponible
+        }
+        
         &--title {
           font-family: "Raleway", sans-serif;
           font-size: 1.9em;
@@ -51,7 +75,9 @@
         }
 
         &--vector {
-          display: none;
+          @media (max-width: 768px) {
+            display: none;
+          }
         }
       }
     }
@@ -63,18 +89,23 @@
       padding: 1.5em;
       border: 1px solid #e8e9ed;
       border-radius: 0.5rem;
+      @media (min-width: 768px) {
+        display: flex;
+     
+        margin: 2em auto;
+        max-width: 60rem;
+        justify-content: space-between;
+      }
 
       &__img {
         margin-bottom: 1.5em;
 
         &--blueEllipse {
-          width: 40%;
           transform: translateX(70%);
         }
 
         &--phone {
           transform: translateX(-25%);
-          
         }
       }
 
@@ -103,7 +134,9 @@
         }
 
         &--vector {
-          display: none;
+          @media (max-width: 768px) {
+            display: none;
+          }
         }
       }
     }
@@ -111,23 +144,23 @@
     // CONTENT THIRD
     &__contentThird {
       margin-top: 2em;
-      background-color: white; 
+      background-color: white;
       border: 1px solid #e8e9ed;
       border-radius: 0.5rem;
-      
+      @media (min-width: 768px) {
+        display: flex;
+
+        margin: 2em auto;
+        max-width: 60rem;
+        justify-content: space-between;
+      }
 
       &__img {
-   
-       
-        background-color: #55DFB4;
+        background-color: #55dfb4;
 
         &--trumpet {
-
           padding-top: 2em;
-
-          
         }
-
       }
 
       &__info {
@@ -155,76 +188,11 @@
         }
 
         &--vector {
-          display: none;
+          @media (max-width: 768px) {
+            display: none;
+          }
         }
       }
     }
   }
-
-  //     &__container {
-
-  //         &__content{
-
-  //         border: 0.1px solid #E8E9ED;
-  //         border-radius: 0.5em;
-  //         width: 100%;
-  //         margin-bottom: 1.5em;
-  //         background-color: #FFF;
-  //         padding: 1em;
-
-  //         &__backgroundImg {
-
-  //             &--redRectangle {
-  //                 transform: translateX(120%);
-  //             }
-
-  //             &--blueEllipse{
-  //                 transform: translateX(75%);
-  //             }
-  //         }
-
-  //         &__frontImg {
-
-  //             &--macbook {
-
-  //                 width: 11em;
-  //                 height: 6.2em;
-  //                 transform: translateX(-30%);
-  //             }
-
-  //             &--phone {
-  //                 transform: translate(-20%, 10%);
-  //             }
-  //         }
-
-  //         &__title {
-  //             font-family: 'Raleway', sans-serif;
-  //             margin-top: 1em;
-  //             font-size: 1.9em;
-  //             font-weight: 400;
-  //             line-height: 1.1em;
-  //             text-align: left;
-  //             margin-left: 0.5em;
-  //             margin-bottom: 1.4em;
-
-  //         }
-
-  //         &__description {
-  //             font-family: 'Open Sans', sans-serif;
-  //             font-size: 1em;
-  //             font-weight: 400;
-  //             line-height: 1.3em;
-  //             text-align: left;
-  //             margin-bottom: 1.4em;
-  //             margin-left: 0.9em;
-
-  //         }
-
-  //         &__vector {
-  //             display: none;
-  //         }
-
-  //     }
-
-  // }
 }
