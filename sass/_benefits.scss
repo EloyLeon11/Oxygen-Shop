@@ -1,78 +1,253 @@
 .benefits {
-    padding: 1.5em;
-    width: 100%;
-    background-color: #F7F7F7;
+    
+    background-color: #e1f1ef;
+    margin-top: 2em;
 
-    &__container {
+    &__container{
 
-        &__content{
 
-        
-        border: 0.1em solid #E8E9ED;
-        border-radius: 0.5em;
-        width: 100%;
-        margin-bottom: 1.5em;
-        background-color: #FFF;
-        padding: 1em;
+       padding: 2em 1.5em;
 
-        &__backgroundImg {
+    //    CONTENT FIRST
+        &__contentFirst{
+  
+            margin-top: 2em;
+            background-color: rgb(0, 255, 115);
+            padding: 1.5em;
+            border: 1px solid #E8E9ED;
+            border-radius: 0.5rem;
+            border-color: black;
 
-            &--redRectangle {
-                transform: translateX(120%);
+            &__img{
+
+                margin-bottom: 1.5em;
+
+                &--redRectangle{
+                 
+                    width: 40%;
+                    transform: translateX(120%);
+                }
+
+                &--macbook{
+                    transform: translateX(-35%);
+                }
             }
 
-            &--blueEllipse{
-                transform: translateX(75%);
+            &__info{
+
+                &--title{
+                    margin-bottom: 1em;
+                }
+
+                &--description{
+                    line-height: 1em;
+
+                }
+
+                &--vector {
+                    display: none;
+                 }
             }
+
         }
 
-        &__frontImg {
+        // CONTENT SECOND
 
-            &--macbook {
+        &__contentSecond{
+  
+            margin-top: 2em;
+            background-color: rgb(0, 255, 115);
+            padding: 1.5em;
+            border: 1px solid #E8E9ED;
+            border-radius: 0.5rem;
+            border-color: black;
 
-                width: 11em;
-                height: 6.2em;
-                transform: translateX(-30%);
+            &__img{
+
+                margin-bottom: 1.5em;
+
+                &--redRectangle{
+                 
+                    width: 40%;
+                    transform: translateX(120%);
+                }
+
+                &--macbook{
+                    transform: translateX(-35%);
+                }
             }
 
-            &--phone {
-              
-                transform: translate(-20%, 10%);
+            &__info{
+
+                &--title{
+                    margin-bottom: 1em;
+                }
+
+                &--description{
+                    line-height: 1em;
+
+                }
+
+                &--vector {
+                    display: none;
+                 }
             }
-        }
-
-        &__title {
-            font-family: 'Raleway', sans-serif;
-            margin-top: 1em;
-            font-size: 1.9em;
-            font-weight: 400;
-            line-height: 1.1em;
-            text-align: left;
-            margin-left: 0.5em;
-            margin-bottom: 1.4em;
 
         }
 
-        &__description {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 1em;
-            font-weight: 400;
-            line-height: 1.3em;
-            text-align: left;
-            margin-bottom: 1.4em;
-            margin-left: 0.9em;
+        // CONTENT THIRD
+
+        &__contentThird{
+  
+            margin-top: 2em;
+            background-color: rgb(0, 255, 115);
+            padding: 1.5em;
+            border: 1px solid #E8E9ED;
+            border-radius: 0.5rem;
+            border-color: black;
+
+            &__img{
+
+                margin-bottom: 1.5em;
+
+                &--redRectangle{
+                 
+                    width: 40%;
+                    transform: translateX(120%);
+                }
+
+                &--macbook{
+                    transform: translateX(-35%);
+                }
+            }
+
+            &__info{
+
+                &--title{
+                    margin-bottom: 1em;
+                }
+
+                &--description{
+                    line-height: 1em;
+
+                }
+
+                &--vector {
+                    display: none;
+                 }
+            }
 
         }
 
 
 
-        &__vector {
-            display: none;
-        }
+
+       
+            
+
+
+
+
+
+
 
     }
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//     &__container {
+
+//         &__content{
+
+        
+//         border: 0.1px solid #E8E9ED;
+//         border-radius: 0.5em;
+//         width: 100%;
+//         margin-bottom: 1.5em;
+//         background-color: #FFF;
+//         padding: 1em;
+
+//         &__backgroundImg {
+
+//             &--redRectangle {
+//                 transform: translateX(120%);
+//             }
+
+//             &--blueEllipse{
+//                 transform: translateX(75%);
+//             }
+//         }
+
+//         &__frontImg {
+
+//             &--macbook {
+
+//                 width: 11em;
+//                 height: 6.2em;
+//                 transform: translateX(-30%);
+//             }
+
+//             &--phone {  
+//                 transform: translate(-20%, 10%);
+//             }
+//         }
+
+//         &__title {
+//             font-family: 'Raleway', sans-serif;
+//             margin-top: 1em;
+//             font-size: 1.9em;
+//             font-weight: 400;
+//             line-height: 1.1em;
+//             text-align: left;
+//             margin-left: 0.5em;
+//             margin-bottom: 1.4em;
+
+//         }
+
+//         &__description {
+//             font-family: 'Open Sans', sans-serif;
+//             font-size: 1em;
+//             font-weight: 400;
+//             line-height: 1.3em;
+//             text-align: left;
+//             margin-bottom: 1.4em;
+//             margin-left: 0.9em;
+
+//         }
+
+
+
+//         &__vector {
+//             display: none;
+//         }
+
+//     }
+
+// }
 
 
 

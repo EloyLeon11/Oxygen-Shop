@@ -167,52 +167,91 @@
 }
 
 .benefits {
+  background-color: #e1f1ef;
+  margin-top: 2em;
+}
+.benefits__container {
+  padding: 2em 1.5em;
+}
+.benefits__container__contentFirst {
+  margin-top: 2em;
+  background-color: rgb(0, 255, 115);
   padding: 1.5em;
-  width: 100%;
-  background-color: #F7F7F7;
+  border: 1px solid #E8E9ED;
+  border-radius: 0.5rem;
+  border-color: black;
 }
-.benefits__container__content {
-  border: 0.1em solid #E8E9ED;
-  border-radius: 0.5em;
-  width: 100%;
+.benefits__container__contentFirst__img {
   margin-bottom: 1.5em;
-  background-color: #FFF;
-  padding: 1em;
 }
-.benefits__container__content__backgroundImg--redRectangle {
+.benefits__container__contentFirst__img--redRectangle {
+  width: 40%;
   transform: translateX(120%);
 }
-.benefits__container__content__backgroundImg--blueEllipse {
-  transform: translateX(75%);
+.benefits__container__contentFirst__img--macbook {
+  transform: translateX(-35%);
 }
-.benefits__container__content__frontImg--macbook {
-  width: 11em;
-  height: 6.2em;
-  transform: translateX(-30%);
+.benefits__container__contentFirst__info--title {
+  margin-bottom: 1em;
 }
-.benefits__container__content__frontImg--phone {
-  transform: translate(-20%, 10%);
+.benefits__container__contentFirst__info--description {
+  line-height: 1em;
 }
-.benefits__container__content__title {
-  font-family: "Raleway", sans-serif;
-  margin-top: 1em;
-  font-size: 1.9em;
-  font-weight: 400;
-  line-height: 1.1em;
-  text-align: left;
-  margin-left: 0.5em;
-  margin-bottom: 1.4em;
+.benefits__container__contentFirst__info--vector {
+  display: none;
 }
-.benefits__container__content__description {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-  line-height: 1.3em;
-  text-align: left;
-  margin-bottom: 1.4em;
-  margin-left: 0.9em;
+.benefits__container__contentSecond {
+  margin-top: 2em;
+  background-color: rgb(0, 255, 115);
+  padding: 1.5em;
+  border: 1px solid #E8E9ED;
+  border-radius: 0.5rem;
+  border-color: black;
 }
-.benefits__container__content__vector {
+.benefits__container__contentSecond__img {
+  margin-bottom: 1.5em;
+}
+.benefits__container__contentSecond__img--redRectangle {
+  width: 40%;
+  transform: translateX(120%);
+}
+.benefits__container__contentSecond__img--macbook {
+  transform: translateX(-35%);
+}
+.benefits__container__contentSecond__info--title {
+  margin-bottom: 1em;
+}
+.benefits__container__contentSecond__info--description {
+  line-height: 1em;
+}
+.benefits__container__contentSecond__info--vector {
+  display: none;
+}
+.benefits__container__contentThird {
+  margin-top: 2em;
+  background-color: rgb(0, 255, 115);
+  padding: 1.5em;
+  border: 1px solid #E8E9ED;
+  border-radius: 0.5rem;
+  border-color: black;
+}
+.benefits__container__contentThird__img {
+  margin-bottom: 1.5em;
+}
+.benefits__container__contentThird__img--redRectangle {
+  width: 40%;
+  transform: translateX(120%);
+}
+.benefits__container__contentThird__img--macbook {
+  transform: translateX(-35%);
+}
+.benefits__container__contentThird__info--title {
+  margin-bottom: 1em;
+}
+.benefits__container__contentThird__info--description {
+  line-height: 1em;
+}
+.benefits__container__contentThird__info--vector {
   display: none;
 }
 
