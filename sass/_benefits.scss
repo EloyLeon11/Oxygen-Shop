@@ -19,28 +19,29 @@
         justify-content: space-between;
         margin: 2em auto;
         max-width: 60rem;
+        padding-bottom: 4em;
+        padding-right: 4em;
       }
 
       &__img {
         margin-bottom: 1.5em;
+       
 
         &--redRectangle {
           transform: translateX(120%);
           @media (min-width: 768px) {
-            transform: scale(1.2);
-            margin-top: 3em;
-          
-        }
+            transform: translate(150%);
+            width: 11em;
+          }
         }
 
         &--macbook {
           transform: translateX(-35%);
-          
-        @media (min-width: 768px) {
-          transform: scale(1.2);
-          margin-top: 3em;
-          margin-right: 1em;
-      }
+
+          @media (min-width: 768px) {
+            transform: scale(1.4);
+            vertical-align: middle;
+          }
         }
       }
 
@@ -48,9 +49,8 @@
         @media (min-width: 768px) {
           display: flex;
           flex-direction: column;
-          width: 50%; // Utilizar el 50% del espacio disponible
         }
-        
+
         &--title {
           font-family: "Raleway", sans-serif;
           font-size: 1.9em;
@@ -77,6 +77,11 @@
         &--vector {
           @media (max-width: 768px) {
             display: none;
+          }
+
+          @media (min-width: 768px) {
+            margin-top: 1.6em;
+            width: 80%;
           }
         }
       }
@@ -91,21 +96,35 @@
       border-radius: 0.5rem;
       @media (min-width: 768px) {
         display: flex;
-     
         margin: 2em auto;
-        max-width: 60rem;
+        max-width: 60em;
         justify-content: space-between;
       }
 
       &__img {
         margin-bottom: 1.5em;
+        @media (min-width: 768px) {
+          display: flex;
+          margin: 2em auto;
+          max-width: 60em;
+          justify-content: space-between;
+        }
 
         &--blueEllipse {
           transform: translateX(70%);
+
+          @media (min-width: 768px) {
+            transform: translateX(5%);
+            width: 15em;
+          }
         }
 
         &--phone {
           transform: translateX(-25%);
+          @media (min-width: 768px) {
+            transform: translateX(-76%);
+            width: 19em;
+          }
         }
       }
 
@@ -137,6 +156,11 @@
           @media (max-width: 768px) {
             display: none;
           }
+
+          @media (min-width: 768px) {
+            margin-top: 1.6em;
+            width: 80%;
+          }
         }
       }
     }
@@ -146,24 +170,48 @@
       margin-top: 2em;
       background-color: white;
       border: 1px solid #e8e9ed;
-      border-radius: 0.5rem;
+      border-radius: 0.5em;
       @media (min-width: 768px) {
         display: flex;
-
+        padding-bottom: 3em;
         margin: 2em auto;
-        max-width: 60rem;
+        max-width: 60em;
+        background-color: #f7f7f7;
+        border: none;
+
         justify-content: space-between;
       }
 
       &__img {
         background-color: #55dfb4;
+        @media (min-width: 768px) {
+          border: 1px solid #e8e9ed;
+          border-radius: 0.5em;
+          background-color: #55dfb4;
+          padding-right: 8em;
+          padding-bottom: 3em;
+          
+        }
 
         &--trumpet {
           padding-top: 2em;
+          margin-top: 5em;
+          margin-left: 1em;
+   
         }
       }
 
       &__info {
+
+       
+        @media (min-width: 768px) {
+          border: 1px solid #e8e9ed;
+          background-color: white;
+          padding-right: 8em;
+          padding-bottom: 3em;
+          border-radius: 0.5em;
+          
+        }
         &--title {
           font-family: "Raleway", sans-serif;
           font-size: 1.9em;
@@ -177,6 +225,7 @@
         }
 
         &--description {
+        
           font-family: "Open Sans", sans-serif;
           font-size: 1em;
           font-weight: 400;
@@ -190,6 +239,11 @@
         &--vector {
           @media (max-width: 768px) {
             display: none;
+          }
+
+          @media (min-width: 768px) {
+            margin-top: 1em;
+            
           }
         }
       }
