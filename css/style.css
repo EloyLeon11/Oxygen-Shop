@@ -167,7 +167,7 @@
 }
 
 .benefits {
-  background-color: #e1f1ef;
+  background-color: #f7f7f7;
   margin-top: 2em;
 }
 .benefits__container {
@@ -175,11 +175,10 @@
 }
 .benefits__container__contentFirst {
   margin-top: 2em;
-  background-color: rgb(0, 255, 115);
+  background-color: white;
   padding: 1.5em;
-  border: 1px solid #E8E9ED;
+  border: 1px solid #e8e9ed;
   border-radius: 0.5rem;
-  border-color: black;
 }
 .benefits__container__contentFirst__img {
   margin-bottom: 1.5em;
@@ -192,64 +191,102 @@
   transform: translateX(-35%);
 }
 .benefits__container__contentFirst__info--title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.9em;
+  line-height: 1.1em;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
+  font-weight: 400;
+  color: black;
 }
 .benefits__container__contentFirst__info--description {
-  line-height: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: left;
+  margin-bottom: 1.4em;
+  margin-left: 0.9em;
+  color: black;
 }
 .benefits__container__contentFirst__info--vector {
   display: none;
 }
 .benefits__container__contentSecond {
   margin-top: 2em;
-  background-color: rgb(0, 255, 115);
+  background-color: white;
   padding: 1.5em;
-  border: 1px solid #E8E9ED;
+  border: 1px solid #e8e9ed;
   border-radius: 0.5rem;
-  border-color: black;
 }
 .benefits__container__contentSecond__img {
   margin-bottom: 1.5em;
 }
-.benefits__container__contentSecond__img--redRectangle {
+.benefits__container__contentSecond__img--blueEllipse {
   width: 40%;
-  transform: translateX(120%);
+  transform: translateX(70%);
 }
-.benefits__container__contentSecond__img--macbook {
-  transform: translateX(-35%);
+.benefits__container__contentSecond__img--phone {
+  transform: translateX(-25%);
 }
 .benefits__container__contentSecond__info--title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.9em;
+  line-height: 1.1em;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
+  font-weight: 400;
+  color: black;
 }
 .benefits__container__contentSecond__info--description {
-  line-height: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: left;
+  margin-bottom: 1.4em;
+  margin-left: 0.9em;
+  color: black;
 }
 .benefits__container__contentSecond__info--vector {
   display: none;
 }
 .benefits__container__contentThird {
   margin-top: 2em;
-  background-color: rgb(0, 255, 115);
-  padding: 1.5em;
-  border: 1px solid #E8E9ED;
+  background-color: white;
+  border: 1px solid #e8e9ed;
   border-radius: 0.5rem;
-  border-color: black;
 }
 .benefits__container__contentThird__img {
-  margin-bottom: 1.5em;
+  background-color: #55DFB4;
 }
-.benefits__container__contentThird__img--redRectangle {
-  width: 40%;
-  transform: translateX(120%);
-}
-.benefits__container__contentThird__img--macbook {
-  transform: translateX(-35%);
+.benefits__container__contentThird__img--trumpet {
+  padding-top: 2em;
 }
 .benefits__container__contentThird__info--title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.9em;
+  line-height: 1.1em;
+  text-align: left;
+  margin-left: 0.5em;
+  margin-top: 1em;
   margin-bottom: 1em;
+  font-weight: 400;
+  color: black;
 }
 .benefits__container__contentThird__info--description {
-  line-height: 1em;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.3em;
+  text-align: left;
+  margin-bottom: 1.4em;
+  margin-left: 0.9em;
+  color: black;
 }
 .benefits__container__contentThird__info--vector {
   display: none;
